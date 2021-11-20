@@ -3,7 +3,7 @@ resource "aws_vpc" "test-vpc" {
   instance_tenancy = "default"
 
   tags = {
-    Name = "terraform-vpc"
+    Name = "terraform-vpcTest"
   }
 }
 
