@@ -4,7 +4,7 @@ resource "aws_instance" "web" {
   key_name      = "Nov"
 
   tags = {
-    Name = "Test01"
+    Name = "TestEC2"
     env  = "dev"
   }
 }
